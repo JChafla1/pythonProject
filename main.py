@@ -5,8 +5,12 @@
 
 
 def main():
-    llista = []
+    #ejercicio1
+    nom=input("Introdueix el teu nom:")
+    cognom=input("Introdueix el teu cognom:")
+    cognom2=input("Introdueix el 2n cognom:")
 
+    print("El teu codi es: ",cognom[:2] + cognom2[:2] + nom[:2])
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
